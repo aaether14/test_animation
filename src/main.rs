@@ -19,7 +19,7 @@ fn main() {
         gl::ClearColor(0.9, 0.3, 0.5, 1.0);
     }
 
-    let monkey = gltf_parser::parse_gltf("Monkey.gltf").
+    let _monkey = gltf_parser::parse_gltf("Monkey.gltf").
         expect("Could not parse model.");
 
     let mut event_pump = sdl.event_pump().unwrap();
